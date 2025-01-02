@@ -1,5 +1,13 @@
 /* Container for the form */
-div{
+/* div{
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} */
+.formrestro{
   max-width: 600px;
   margin: 50px auto;
   padding: 20px;
@@ -7,7 +15,6 @@ div{
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 /* Heading Style */
 h2 {
   text-align: center;
@@ -51,7 +58,7 @@ input[type="datetime-local"]:focus {
 }
 
 /* Button Style */
-button {
+.bt {
   width: 100%;
   padding: 12px;
   background-color: #3498db;
@@ -63,7 +70,7 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover {
+.bt:hover {
   background-color: #2980b9;
 }
 
@@ -95,7 +102,7 @@ input[type="file"] {
     font-size: 22px;
   }
 
-  button {
+  .bt {
     font-size: 14px;
   }
 
@@ -115,7 +122,7 @@ input[type="file"] {
     font-size: 20px;
   }
 
-  button {
+  .bt {
     font-size: 14px;
   }
 
@@ -143,7 +150,7 @@ input[type="file"] {
     font-size: 18px;
   }
 
-  button {
+  .bt {
     font-size: 16px;
     padding: 10px;
   }

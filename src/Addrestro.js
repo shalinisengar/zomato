@@ -79,7 +79,7 @@ const Addrestro = () => {
   };
 
   return (
-    <>
+    <div className="formrestro">
       <h2>Add Restaurant</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
@@ -140,9 +140,9 @@ const Addrestro = () => {
             onChange={handleChange}
           />
         </div>
-        <button type="submit">Add Restaurant</button>
+        <button className="bt" type="submit">Add Restaurant</button>
       </form>
-    </>
+    </div>
   );
 };
 
