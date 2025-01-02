@@ -23,25 +23,25 @@ let fun2=(e)=>{
 }
   return (
     <div>
-        <div className='container w-75 d-flex justify-content-between align-item-center ' >
+        <div className='container-sm w-75 d-flex justify-content-between align-item-center ' >
 
             <img style={{width:'15rem'}} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaGTZHs9bDIfNQ1sobj_xrUlY03gt9cYLgjA&usqp=CAU'/>
-            <h1>Search here</h1>
+            {/* <h2>Search here</h2> */}
         </div>
         
-        <form class="container d-flex justify-content-center align-item-center">
+        <form class="container-sm d-flex justify-content-center align-item-center">
   
-  <div class="col-lg-4">
+  <div class="col-lg-4 m-2 ">
     <label for="inputPassword2" class="visually-hidden">Search</label>
-    <input onChange={fun1} value={search}  type="text" class="form-control" id="inputPassword2" placeholder="Search"/>
+    <input onChange={fun1} value={search}  type="text" class="form-control" id="inputPassword2" placeholder="Search here"/>
   </div>
-  <div class="">
+  <div className='mt-2 ml-2'>
   {/* <button class="button">Search Now</button> */}
-    <button onClick={fun2} type="submit" class="btn btn-primary mb-3"> Search </button>
+    <button onClick={fun2} type="submit" class="btn btn-primary w-8" style={{height:44}}> Search </button>
   </div>
 </form>
 
-<section className='container w-75'>
+<section className='container-sm w-75'>
   <h2 style={{fontWeight:400}}>Best food in the Bhopal</h2>
     <div className='row d-flex justify-content-between align-item-center'>
       {

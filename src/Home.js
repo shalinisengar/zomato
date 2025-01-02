@@ -26,7 +26,7 @@ const Home = () => {
     setdata(null)
   }
   return (
-    <div>
+    <>
          <div className='parent'>
 
 <img className='img' src={img} alt="logo" />   {/* background image */}
@@ -85,7 +85,7 @@ data? (  <>   <p>{data.userData.name}</p>
         </footer>
         
         </div>
-    </div>
+    </>
   )
 }
 
