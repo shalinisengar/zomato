@@ -63,7 +63,7 @@ data? (  <>   <p>{data.userData.name}</p>
       </div>
       <div className='input-search'>
       <h3 id='h3'>Discover the best food & drinks in Chitkara</h3>
-      <div className="input">
+      <div className="inp">
     <select name="" id="">
         <option value="Chennai">Chennai</option>
         <option value="Jaipur">Jaipur</option>

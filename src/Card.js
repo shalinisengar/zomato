@@ -5,7 +5,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 const card = () => {
   return (
     <div>
-      <section className="container w-75">
+      <section className="container-sm w-75">
         <div className="row d-flex justify-content-between align-item-center">
           <div class="card p-0" style={{ width: 335, height: 260, borderRadius:20}}>
             <img
